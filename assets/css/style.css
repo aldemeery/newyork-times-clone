@@ -8,6 +8,7 @@
 
 html {
   box-sizing: border-box;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 *,
@@ -24,9 +25,13 @@ html {
   gap: 10px;
 }
 
+/* Header (Navbar) */
+
 header {
-  background-color: aqua;
-  height: 50px;
+  min-height: 43px;
+  padding: 0px 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
   grid-column: 1 / 13;
   position: sticky;
   top: 0;
@@ -35,14 +40,35 @@ header {
   align-items: center;
 }
 
-.nav-left {
-  grid-column: 1 / 2;
-  justify-self: center;
+header a {
+  text-decoration: none;
+  color: #222;
 }
 
-.nav-right {
-  grid-column: 3 / 4;
-  justify-self: center;
+.nav-left {
+  grid-column: 1 / 2;
+  justify-self: left;
+}
+
+.nav-left .material-icons {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu-icon,
+.search-icon {
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.category {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.category:hover {
+  text-decoration: underline;
 }
 
 .nav-logo {
@@ -51,8 +77,29 @@ header {
 }
 
 .nav-logo img {
-  width: 195px;
+  width: 220px;
 }
+
+.nav-right {
+  grid-column: 3 / 4;
+  justify-self: right;
+}
+
+.nav-right .btn {
+  padding: 7px 20px;
+  background-color: #567b95;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 700;
+  border: 1px solid #ddd;
+}
+
+.nav-right .btn:hover {
+  background-color: #326891;
+}
+
+/* Main content */
 
 main {
   background-color: blue;
