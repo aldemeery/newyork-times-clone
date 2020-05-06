@@ -12,8 +12,8 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -29,8 +29,8 @@ html {
 
 header {
   min-height: 43px;
-  padding: 0px 20px;
-  background-color: #ffffff;
+  padding: 0 20px;
+  background-color: #fff;
   border-bottom: 1px solid #ddd;
   grid-column: 1 / 13;
   position: sticky;
@@ -139,6 +139,33 @@ main {
   color: #222;
 }
 
+.promo-spacer a {
+  color: #328691;
+}
+
+.reading-section a {
+  color: #328691;
+}
+
+.text-history,
+.text-history a {
+  font-size: 12px;
+  color: #666;
+}
+
+.more-items a {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  flex: 1 0 100%;
+  color: #222;
+  text-decoration: none;
+}
+
+.item-image a {
+  text-decoration: none;
+  color: #222;
+}
+
 .made-by a:hover {
   text-decoration: none;
 }
@@ -185,10 +212,6 @@ main {
   font-size: 1.25rem;
 }
 
-.reading-section a {
-  color: #328691;
-}
-
 .reading-section a:hover {
   text-decoration: none;
 }
@@ -213,10 +236,6 @@ main {
   display: block;
   margin: 18px auto;
   width: 15%;
-}
-
-.promo-spacer a {
-  color: #328691;
 }
 
 .promo-spacer a:hover {
@@ -288,7 +307,6 @@ main {
 }
 
 .image-between-text {
-  margin-top: 50px;
   width: 75%;
   display: block;
   margin: auto;
@@ -296,12 +314,6 @@ main {
 
 .image-between-text img {
   width: 100%;
-}
-
-.text-history,
-.text-history a {
-  font-size: 12px;
-  color: #666;
 }
 
 .text-history a:hover {
@@ -314,14 +326,6 @@ main {
 
 .more-items .more-title {
   font-size: 16px;
-}
-
-.more-items a {
-  margin-top: 10px;
-  margin-bottom: -10px;
-  flex: 1 0 100%;
-  color: #222;
-  text-decoration: none;
 }
 
 .more-items a:hover {
@@ -349,11 +353,6 @@ main {
 
 .item-image img {
   width: 100%;
-}
-
-.item-image a {
-  text-decoration: none;
-  color: #222;
 }
 
 .item-image a:hover {
