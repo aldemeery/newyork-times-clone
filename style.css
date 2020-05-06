@@ -28,6 +28,30 @@ header {
   background-color: aqua;
   height: 50px;
   grid-column: 1 / 13;
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-items: center;
+}
+
+.nav-left {
+  grid-column: 1 / 2;
+  justify-self: center;
+}
+
+.nav-right {
+  grid-column: 3 / 4;
+  justify-self: center;
+}
+
+.nav-logo {
+  grid-column: 2 / 3;
+  justify-self: center;
+}
+
+.nav-logo img{
+  width: 195px;
 }
 
 main {
