@@ -1,0 +1,62 @@
+/* Simple CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Main Container */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 10px
+}
+
+header {
+  background-color: aqua;
+  height: 50px;
+  grid-column: 1 / 13;
+}
+
+main {
+  background-color: blue;
+  min-height: 1024px;
+  grid-column: 1 / 13;
+}
+
+.more {
+  height: 128px;
+  grid-column: 1 / 9;
+  background-color: blueviolet;
+}
+
+.most-popular {
+  min-height: 128px;
+  grid-column: 9 / 13;
+  grid-row: 3 / 5;
+  background-color: coral;
+}
+
+.editors-picks {
+  height: 128px;
+  grid-column: 1 / 9;
+  background-color: cornflowerblue;
+}
+
+footer {
+  min-height: 512px;
+  background-color: crimson;
+  grid-column: 1 / 13;
+}
