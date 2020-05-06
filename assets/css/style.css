@@ -102,9 +102,100 @@ header a {
 /* Main content */
 
 main {
-  background-color: blue;
   min-height: 1024px;
   grid-column: 1 / 13;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.main-title {
+  margin: 25px auto 35px !important;
+}
+
+.main-title h1 {
+  font-size: 40px;
+  text-align: left;
+}
+
+.banner img {
+  max-width: 100%;
+}
+
+.banner-caption {
+  color: #666;
+  max-width: 80%;
+  font-size: 15px;
+}
+
+.made-by {
+  margin: 15px auto;
+}
+
+.made-by a {
+  color: #222;
+}
+
+.made-by a:hover {
+  text-decoration: none;
+}
+
+.option-box .date {
+  font-size: 13px;
+  color: #333;
+  float: left;
+  position: relative;
+  top: 14px;
+}
+
+.option-box .social-icons {
+  float: right;
+}
+
+.social-icons li {
+  display: inline;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.social-icons i {
+  padding: 10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  background-color: #eee;
+  cursor: pointer;
+  border: 1px solid #eee;
+}
+
+.social-icons i:hover {
+  background-color: #fff;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.reading-section {
+  margin-top: 75px !important;
+  font-size: 1.25rem;
+}
+
+.reading-section a {
+  color: #328691;
+}
+
+.reading-section a:hover {
+  text-decoration: none;
+}
+
+.reading-text {
+  margin-bottom: 16px;
+}
+
+.article-text {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .more {
