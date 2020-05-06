@@ -21,7 +21,7 @@ html {
 .container {
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr));
-  gap: 10px
+  gap: 10px;
 }
 
 header {
@@ -50,7 +50,7 @@ header {
   justify-self: center;
 }
 
-.nav-logo img{
+.nav-logo img {
   width: 195px;
 }
 
@@ -100,5 +100,4 @@ footer {
 }
 
 .reading-image-item {
-
 }
