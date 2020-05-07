@@ -131,6 +131,30 @@ html {
   font-size: 15px;
 }
 
+.most-popular-item a {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+  color: #121212;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-column a {
+  font-size: 14px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-decoration: none;
+  color: #000;
+  margin: 2px;
+}
+
+.footer-footer a {
+  font-size: 11px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: #666;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
 .made-by {
   margin: 15px auto;
 }
@@ -382,14 +406,6 @@ html {
   width: 100%;
 }
 
-.most-popular-item a {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 19px;
-  color: #121212;
-  text-decoration: none;
-  font-weight: 500;
-}
-
 .most-popular-item a:hover {
   color: #666;
 }
@@ -443,14 +459,6 @@ html {
   margin-bottom: 10px;
 }
 
-.footer-column a {
-  font-size: 14px;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  text-decoration: none;
-  color: #000;
-  margin: 2px;
-}
-
 .footer-column a:hover {
   text-decoration: underline;
 }
@@ -464,14 +472,6 @@ html {
   padding-top: 10px;
   width: 100%;
   justify-content: center;
-}
-
-.footer-footer a {
-  font-size: 11px;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  color: #666;
-  text-decoration: none;
-  margin-right: 10px;
 }
 
 .footer-footer a:hover {
