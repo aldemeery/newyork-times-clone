@@ -27,7 +27,7 @@ html {
 
 /* Header (Navbar) */
 
-header {
+.header {
   min-height: 43px;
   padding: 0 20px;
   background-color: #fff;
@@ -40,7 +40,7 @@ header {
   align-items: center;
 }
 
-header a {
+.header a {
   text-decoration: none;
   color: #222;
 }
@@ -105,7 +105,7 @@ header a {
 
 /* Main content */
 
-main {
+.main {
   min-height: 1024px;
   grid-column: 1 / 13;
   max-width: 950px;
@@ -343,12 +343,12 @@ main {
 }
 
 .more-item {
-  flex: 0 0 255px;
+  flex: 1 0 33%;
   margin-top: 30px;
 }
 
 .item-image {
-  width: 255px;
+  width: 90%;
 }
 
 .item-image img {
@@ -363,7 +363,35 @@ main {
   min-height: 128px;
   grid-column: 9 / 13;
   grid-row: 3 / 5;
-  background-color: coral;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #222;
+  margin-right: 57px;
+}
+
+.most-popular h3 {
+  margin-top: 10px;
+  margin-bottom: 27px;
+  font-size: 16px;
+}
+
+.most-popular-item {
+  padding: 20px 50px 20px 0;
+  margin-right: 50px;
+  border-top: 1px solid #e2e2e2;
+  width: 100%;
+}
+
+.most-popular-item a {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+  color: #121212;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.most-popular-item a:hover {
+  color: #666;
 }
 
 .editors-picks {
@@ -372,7 +400,7 @@ main {
   background-color: cornflowerblue;
 }
 
-footer {
+.footer {
   min-height: 512px;
   background-color: crimson;
   grid-column: 1 / 13;
