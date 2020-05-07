@@ -459,9 +459,11 @@ html {
   grid-column: 1 / 7;
   display: flex;
   flex-direction: row;
-  margin: 40px auto 0 auto;
+  margin-top: 40px;
   border-top: 1px solid #e2e2e2;
   padding-top: 10px;
+  width: 100%;
+  justify-content: center;
 }
 
 .footer-footer a {
@@ -469,7 +471,7 @@ html {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   color: #666;
   text-decoration: none;
-  margin-right: 35px;
+  margin-right: 10px;
 }
 
 .footer-footer a:hover {
