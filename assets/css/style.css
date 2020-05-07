@@ -401,7 +401,77 @@ html {
 }
 
 .footer {
-  min-height: 512px;
-  background-color: crimson;
   grid-column: 1 / 13;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-rows: 50px 1fr 50px;
+  margin: 0 75px 75px 75px;
+  border-top: 3px solid #e2e2e2;
+  padding-top: 10px;
+}
+
+.footer-header {
+  grid-column: 1 / 7;
+}
+
+.footer-logo {
+  width: 220px;
+  float: left;
+}
+
+.footer-header-right {
+  float: right;
+  font-size: 11px;
+  color: #666;
+  text-decoration: none;
+}
+
+.footer-header-right:hover {
+  text-decoration: underline;
+}
+
+.footer-column {
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-column h3 {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  font-size: 14px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-decoration: none;
+  color: #000;
+  margin: 2px;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+.footer-footer {
+  grid-column: 1 / 7;
+  display: flex;
+  flex-direction: row;
+  margin: 40px auto 0 auto;
+  border-top: 1px solid #e2e2e2;
+  padding-top: 10px;
+}
+
+.footer-footer a {
+  font-size: 11px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: #666;
+  text-decoration: none;
+  margin-right: 35px;
+}
+
+.footer-footer a:hover {
+  text-decoration: underline;
 }

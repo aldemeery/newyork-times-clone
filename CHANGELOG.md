@@ -12,3 +12,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - The whole page HTML layout.
 - Header styles.
 - Suggestions styles.
+- Most Popular Items.
+- Footer.
