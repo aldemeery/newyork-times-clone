@@ -1,22 +1,26 @@
 {
-  "name": "mint-signup",
-  "version": "1.0.0",
-  "description": "A mimic for the signup form of mint.com",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aldemeery/mint-signup.git"
-  },
-  "keywords": [
-    "Microverse",
-    "Mint",
-    "Forms"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/aldemeery/mint-signup/issues"
-  },
-  "homepage": "https://github.com/aldemeery/mint-signup#readme"
+    "name": "newyork-times-clone",
+    "version": "1.0.0",
+    "description": "A clone of the New York Times website.",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/aldemeery/newyork-times-clone.git"
+    },
+    "keywords": [
+        "Microverse",
+        "Mint",
+        "Forms"
+    ],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/aldemeery/newyork-times-clone/issues"
+    },
+    "homepage": "https://github.com/aldemeery/newyork-times-clone#readme",
+    "devDependencies": {
+        "stylelint": "^13.3.3",
+        "stylelint-config-recommended": "^3.0.0"
+    }
 }
