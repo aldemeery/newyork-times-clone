@@ -8,7 +8,7 @@
 
 ## Live Preview
 
-Click [here](https://raw.githack.com/aldemeery/newyork-times-clone/feature-html-layout/index.html) for a live preview.
+Click [here](https://raw.githack.com/aldemeery/newyork-times-clone/master/index.html) for a live preview.
 
 ## Authors
 
